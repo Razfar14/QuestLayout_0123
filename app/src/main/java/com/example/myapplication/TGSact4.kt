@@ -49,7 +49,13 @@ fun Act4(modifier: Modifier = Modifier) {
                 .padding(12.dp),
             colors = CardDefaults.cardColors(containerColor = colorResource(id = R.color.card_0_bg))
         ) {
-
+            Row(){
+                val gambar = painterResource(id = R.drawable.img)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(100.dp).padding(all = 5.dp)
+                )
 
 
 
