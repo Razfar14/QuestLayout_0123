@@ -22,6 +22,15 @@ fun Act4(modifier: Modifier = Modifier) {
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            text = stringResource(id = R.string.Prodi),
+            fontSize = 35.sp,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = stringResource(id = R.string.univ),
+            fontSize = 22.sp
+        )
 
     }
 }
