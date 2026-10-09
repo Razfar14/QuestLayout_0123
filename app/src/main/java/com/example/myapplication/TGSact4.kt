@@ -16,6 +16,12 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun Act4(modifier: Modifier = Modifier) {
-    
+    Column(
+        modifier = modifier
+            .padding(top = 108.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+
     }
 }
