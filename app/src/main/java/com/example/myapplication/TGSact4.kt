@@ -58,6 +58,14 @@ fun Act4(modifier: Modifier = Modifier) {
                 )
                 Spacer(modifier = Modifier.width(30.dp))
 
+                Column() {
+                    Text(
+                        stringResource("TheMoth"),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(bottom = 15.dp)
+                    )
 
 
 
