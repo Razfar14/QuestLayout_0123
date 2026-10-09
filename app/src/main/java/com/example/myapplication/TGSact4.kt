@@ -69,12 +69,14 @@ fun Act4(modifier: Modifier = Modifier) {
                     Text(
                         stringResource("Ngawi, Jawa Timur"),
                         fontSize = 20.sp,
-                        color = Color.Yellow
+                        color = Color.Yellow,
+                        modifier = Modifier.padding(bottom = 10.dp)
                     )
                 }
-
-
             }
         }
     }
+    Box(
+        modifier = Modifier
+    )
 }
