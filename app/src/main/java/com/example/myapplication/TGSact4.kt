@@ -66,7 +66,12 @@ fun Act4(modifier: Modifier = Modifier) {
                         color = Color.White,
                         modifier = Modifier.padding(bottom = 15.dp)
                     )
-
+                    Text(
+                        stringResource("Ngawi, Jawa Timur"),
+                        fontSize = 20.sp,
+                        color = Color.Yellow
+                    )
+                }
 
 
             }
